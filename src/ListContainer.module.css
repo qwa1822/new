@@ -1,0 +1,59 @@
+.listContainer {
+  padding: 0px 32px;
+  margin-top: 32px;
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.input {
+  width: 60%;
+  background-color: white;
+  padding-left: 20px;
+  border-radius: 6px;
+  box-shadow: none;
+  margin-left: 10px;
+  margin-right: auto;
+}
+
+.filterList {
+  display: flex;
+  justify-content: center;
+}
+.filterList > span {
+  margin-left: 10px;
+  padding: 6px 12px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.filterListHover {
+  color: pink;
+}
+
+.listFilter {
+  margin-top: 20px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background-color: rgb(246, 248, 250);
+  padding: 16px;
+  position: relative;
+}
+.textFilter {
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.selected {
+  font-weight: 800;
+}
+.modalContainer {
+  top: 40px;
+  position: absolute;
+  left: 30px;
+}
+.link {
+  text-decoration: none;
+}

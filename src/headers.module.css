@@ -1,0 +1,24 @@
+.header {
+  padding: 16px 32px 0;
+  background-color: rgba(246, 248, 250);
+
+  box-shadow: inset 0 -1px 0 hsla(210, 18%, 87%, 1);
+}
+.buttonContainer {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: flex-end;
+}
+.circle {
+  margin-left: 3px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  color: white;
+  background-color: black;
+}
+
+.selected {
+  border-bottom: #fa4549 2px solid;
+  font-weight: 800;
+}

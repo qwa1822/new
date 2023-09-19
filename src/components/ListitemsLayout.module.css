@@ -1,0 +1,21 @@
+.wrapper {
+  padding: 8px 16px;
+  border-top: 1px solid #000;
+  background-color: #ffffff;
+  display: flex;
+}
+.wrapper:last-child {
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom: 1px solid #d0d7de;
+}
+.checkbox {
+  margin-right: 8px;
+  margin-top: 5px;
+}
+.listFilter {
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background-color: rgb(90, 103, 116);
+  padding: 16px;
+}

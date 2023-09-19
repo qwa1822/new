@@ -1,0 +1,7 @@
+.button {
+  padding: 5px 16px;
+  border-radius: 6px;
+  display: flex;
+  border: 1px solid rgba(27, 31, 0.1);
+  align-items: center;
+}

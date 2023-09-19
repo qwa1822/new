@@ -1,0 +1,26 @@
+.wrapper {
+  padding: 8px 16px;
+  border-top: 1px solid #000;
+  background-color: #ffffff;
+  display: flex;
+}
+.wrapper:hover {
+  background-color: aliceblue;
+}
+
+.checkbox {
+  margin-right: 8px;
+  margin-top: 5px;
+}
+.title {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.description {
+  color: rgb(87, 96, 105);
+  font-size: 12px;
+}
